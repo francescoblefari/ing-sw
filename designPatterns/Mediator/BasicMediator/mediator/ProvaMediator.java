@@ -1,6 +1,7 @@
 package mediator;
 
 import javax.swing.*;
+import java.awt.*;
 
 // Esempio di utilizzo del pattern Mediator con widgets
 public class ProvaMediator {
