@@ -22,7 +22,14 @@ public class ProvaMediator {
         frame.add(cognomeTextField);
         frame.add(salvaButton);
 
+        FormMediator mediator = new FormMediator();
+        mediator.setNome(nomeTextField);
+        mediator.setCognome(cognomeTextField);
+        mediator.setSave(salvaButton);
 
+        nomeTextField.addActionListener( _ -> mediator.widgetCambiato(nomeTextField));
+        cognomeTextField.addActionListener( _ -> mediator.widgetCambiato(cognomeTextField));
+        salvaButton.addActionListener( _ -> mediator.widgetCambiato(salvaButton));
 
         frame.pack();
         frame.setVisible(true);

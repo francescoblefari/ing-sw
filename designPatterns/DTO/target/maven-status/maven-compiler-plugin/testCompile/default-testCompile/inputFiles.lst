@@ -1,7 +1,3 @@
-C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\design-patterns-architectural\src\test\java\com\baeldung\dtopattern\api\MapperUnitTest.java
-C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\design-patterns-architectural\src\test\java\com\baeldung\dtopattern\domain\UserUnitTest.java
-C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\design-patterns-architectural\src\test\java\com\baeldung\seda\apachecamel\ApacheCamelSedaIntegrationTest.java
-C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\design-patterns-architectural\src\test\java\com\baeldung\dtopattern\api\UserControllerIntegrationTest.java
-C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\design-patterns-architectural\src\test\java\com\baeldung\dtopattern\domain\InMemoryRepositoryUnitTest.java
-C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\design-patterns-architectural\src\test\java\com\baeldung\daopattern\test\UserDaoUnitTest.java
-C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\design-patterns-architectural\src\test\java\com\baeldung\seda\springintegration\SpringIntegrationSedaIntegrationTest.java
+C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\DTO\src\test\java\it\unical\api\UserControllerIntegrationTest.java
+C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\DTO\src\test\java\it\unical\api\MapperUnitTest.java
+C:\Users\Francesco\Documents\repositories\ing-sw\designPatterns\DTO\src\test\java\it\unical\domain\UserUnitTest.java

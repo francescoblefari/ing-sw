@@ -1,7 +1,3 @@
-com\baeldung\daopattern\test\UserDaoUnitTest.class
-com\baeldung\seda\springintegration\SpringIntegrationSedaIntegrationTest.class
-com\baeldung\dtopattern\domain\UserUnitTest.class
-com\baeldung\dtopattern\api\MapperUnitTest.class
-com\baeldung\dtopattern\domain\InMemoryRepositoryUnitTest.class
-com\baeldung\dtopattern\api\UserControllerIntegrationTest.class
-com\baeldung\seda\apachecamel\ApacheCamelSedaIntegrationTest.class
+it\unical\api\MapperUnitTest.class
+it\unical\domain\UserUnitTest.class
+it\unical\api\UserControllerIntegrationTest.class
