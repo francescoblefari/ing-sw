@@ -3,4 +3,19 @@ designPatterns/Mediator/BasicMediator/out/**
 designPatterns/Mediator/MarketMediator/out/**
 gRPC/simple_grpc/simple_grpc/target/**
 gRPC/simple_grpc/simple_grpc_python/env/**
-/out/
+/out/**
+
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
+*.iml
+*.ipr
