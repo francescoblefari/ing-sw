@@ -1,6 +1,6 @@
-out/**
 designPatterns/DTO/target
 designPatterns/Mediator/BasicMediator/out/**
 designPatterns/Mediator/MarketMediator/out/**
 gRPC/simple_grpc/simple_grpc/target/**
 gRPC/simple_grpc/simple_grpc_python/env/**
+/out/
