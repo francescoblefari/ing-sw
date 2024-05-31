@@ -5,6 +5,7 @@ import it.unical.domain.User;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 import static java.util.stream.Collectors.toList;
@@ -13,11 +14,18 @@ import static java.util.stream.Collectors.toList;
 class Mapper {
     public UserDTO toDto(User user) {
         String name = user.getName();
+
         List<String> roles = user
                 .getRoles()
                 .stream()
-                .map(Role::getName)
+                .map(x -> x.getName())
                 .collect(toList());
+
+        roles = new LinkedList<>();
+        for(Role x: user.getRoles()){
+            roles.add(x.getName());
+        }
+
 
         return new UserDTO(name, roles);
     }
